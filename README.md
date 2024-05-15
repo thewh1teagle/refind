@@ -1,4 +1,4 @@
-<img width=95 src="https://github.com/thewh1teagle/refind/assets/61390950/4421da0a-7971-4aed-a300-ad80f914a7c6">
+<img width=95 src="https://github.com/thewh1teagle/refind/assets/61390950/bc625185-bb8c-450f-af3a-47780e4bb21f">
 
 # refind
 
