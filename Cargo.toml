@@ -1,0 +1,29 @@
+[package]
+name = "refind"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["thewh1teagle"]
+repository = "https://github.com/thewh1teagle/refind"
+description = "Cross platform file locator by file ID. Keep track of files even after they're renamed or moved."
+keywords = ["file", "system", "cross-platform", "sync", "search"]
+
+[dependencies]
+dunce = "1.0.4"
+eyre = "0.6.12"
+log = "0.4.21"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.56.0", features = [
+    "Storage",
+    "Win32",
+    "Win32_Storage",
+    "Win32_Storage_FileSystem",
+    "Win32_Security",
+] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+libc = "0.2.154"
+
+[dev-dependencies]
+env_logger = "0.11.3"
