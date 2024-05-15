@@ -15,7 +15,7 @@ Keep track of files even after they're renamed or moved.
 
 # Supported platforms
 
-`Windows` and `macOS`
+`Windows` and `macOS`, with limited functionality on `Linux`.
 
 # Install
 
@@ -89,4 +89,4 @@ See [microsoft/extendedfileapis](https://github.com/microsoft/Windows-classic-sa
 
 ### Linux
 
-Not implemented, see [stackoverflow.com/questions/1406679/](https://stackoverflow.com/questions/1406679/retrieving-the-path-from-a-file-descriptor-or-file)
+`Linux` resorts to a naive approach by traversing the filesystem from the home folder downwards, comparing file IDs. While relatively fast, it lacks the efficiency of macOS and Windows methods.see [stackoverflow.com/questions/1406679/](https://stackoverflow.com/questions/1406679/retrieving-the-path-from-a-file-descriptor-or-file)
