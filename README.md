@@ -2,8 +2,8 @@
 
 # refind
 
-[![Crates](https://img.shields.io/crates/v/patty?logo=rust)](https://crates.io/crates/patty/)
-[![License](https://img.shields.io/github/license/thewh1teagle/rookie?color=00aaaa&logo=license)](https://github.com/thewh1teagle/rookie/blob/main/rookie-rs/MIT-LICENSE.txt)
+[![Crates](https://img.shields.io/crates/v/refind?logo=rust)](https://crates.io/crates/refind/)
+[![License](https://img.shields.io/github/license/thewh1teagle/refind?color=00aaaa&logo=license)](https://github.com/thewh1teagle/refind/blob/main/LICENSE)
 
 Keep track of files even after they're renamed or moved.
 
