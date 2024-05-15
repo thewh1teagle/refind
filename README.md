@@ -1,4 +1,4 @@
-<img width=95 src="https://files.softicons.com/download/system-icons/mac-os-apps-icons-3-by-hamza-saleem/png/512x512/Finder.png">
+<img width=95 src="https://github.com/thewh1teagle/refind/assets/61390950/4421da0a-7971-4aed-a300-ad80f914a7c6">
 
 # refind
 
